@@ -1,0 +1,9 @@
+.page {
+  background-color: orange;
+  height: 100%
+}
+
+.headerBar {
+    color: green;
+    font-size: 5rem
+  }
