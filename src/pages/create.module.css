@@ -1,0 +1,19 @@
+.page {
+    /* background-image: url("https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0645be79-d475-40e0-9f53-9336e3fe13b7/envited_landing_page.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220227T050744Z&X-Amz-Expires=86400&X-Amz-Signature=b9b516ef94fb6d11c24650d30ed21b544e7f2fee8e293a72552cf05069afab45&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Landing%2520page%2520background%2520gradient.png%22&x-id=GetObject"); */
+    min-height: 100vh;
+    height: 100%;
+    flex-direction: column;
+    background: linear-gradient(163.63deg, #501FC1 12.2%, #C346D5 96.78%);
+    align-items: center;
+    text-align: center;
+    justify-content:space-between
+  }
+
+  .createPage {
+      width: 100%;
+      flex-direction: column;
+      background-color: white;
+      height: 75vh;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+  }
