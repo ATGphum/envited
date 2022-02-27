@@ -1,11 +1,12 @@
 .page {
   /* background-image: url("https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0645be79-d475-40e0-9f53-9336e3fe13b7/envited_landing_page.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220227T050744Z&X-Amz-Expires=86400&X-Amz-Signature=b9b516ef94fb6d11c24650d30ed21b544e7f2fee8e293a72552cf05069afab45&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Landing%2520page%2520background%2520gradient.png%22&x-id=GetObject"); */
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   flex-direction: column;
   background: linear-gradient(163.63deg, #501FC1 12.2%, #C346D5 96.78%);
   align-items: center;
   text-align: center;
-  padding: 1rem
+  justify-content: space-between;
 }
 
 .headerBar {
@@ -16,7 +17,8 @@
 .logoTitle {
   font-weight: 600;
   font-size: 25px;
-  color: white
+  color: white;
+  margin-left: 0.5rem
 }
 
 .pageHeader {
@@ -29,12 +31,14 @@
   font-weight: 400;
   color: white;
   font-size: 15px;
+  padding: 0 3rem
 }
 
 .topBar {
   align-items: center;
   width: 100%;
   justify-content: space-between;
+  padding: 0.8rem
 }
 
 .logIn {
@@ -65,4 +69,38 @@
   background: linear-gradient(107.04deg, #06D6A0 48.99%, #5794F7 118.32%);
   width: fit-content;
   border-radius: 100px
+}
+
+.imageWrapper {
+  max-width: 40rem;
+  position: relative;
+  width: 100%;
+  height: 27rem
+}
+
+.image1 {
+  position: absolute;
+  left: 0;
+  height: 25rem
+}
+
+.image2 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  height: 27rem
+}
+
+.image3 {
+  position: absolute;
+  right: 0;
+  height: 25rem
+}
+
+.pageBody {
+  flex-direction: column;
+  justify-content: flex-end
 }

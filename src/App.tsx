@@ -7,6 +7,7 @@ import About from './pages/about';
 import { ChakraProvider } from '@chakra-ui/react';
 import { Global } from "@emotion/react"
 import { extendTheme } from "@chakra-ui/react"
+import Create from './pages/create';
 
 
 
@@ -21,7 +22,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
         <Routes>
-          <Route path="/create" element={<About />} />
+          <Route path="/create" element={<Create />} />
           <Route path="/event" element={<About />} />
           <Route path="/" element={<Home />} />
         </Routes>
